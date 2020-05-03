@@ -7,13 +7,14 @@ body{
 /*Navigation Styles*/
 
 .nav-container {
-    width: 100%;
+    width: 97%;
     margin: 0;
-    padding: 0;
-    height: 40px;
-    
+    padding: 10px;
+    height: 128px;
+    border: solid 10px #D8977F;
     font-family: 'Yeseva One', cursive;
     z-index: 999;
+    background-color: #014040;
 }
 
 .name{
@@ -30,7 +31,7 @@ nav{
     text-align: right;
     padding: 0;
     margin: 0;
-    
+    background-color: #014040;
     width: 100%;
 }
 
@@ -61,7 +62,7 @@ nav a:hover{
 /*Hero Image Styles*/
 
 .hero-container{
-    margin-top: 100px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     background-color: #014040;
